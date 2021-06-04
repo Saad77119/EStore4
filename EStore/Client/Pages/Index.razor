@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+@foreach(var product in cataLog.Products)
+            {
+                <ProductItem product="@product"></ProductItem>           
+      }
+
+@code{
+    private Catalog cataLog { get; set; } = new Catalog
+    {
+        Products = new List<Product>
+        {
+            new Product(1,"New Jeans","Beatiful Jeans",3500,MainCategory.MensFashion,"Casual",1),
+            new Product(2,"New Jeans","Beatiful Jeans",3500,MainCategory.MensFashion,"Casual",1),
+            new Product(3,"New Jeans","Beatiful Jeans",3500,MainCategory.MensFashion,"Casual",1),
+            new Product(4,"New Jeans","Beatiful Jeans",3500,MainCategory.MensFashion,"Casual",1)
+        }
+    };
+}

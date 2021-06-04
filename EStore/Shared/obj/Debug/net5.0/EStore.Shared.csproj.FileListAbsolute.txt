@@ -1,0 +1,12 @@
+D:\C# Practice\EStore\EStore\Shared\bin\Debug\net5.0\EStore.Shared.deps.json
+D:\C# Practice\EStore\EStore\Shared\bin\Debug\net5.0\EStore.Shared.dll
+D:\C# Practice\EStore\EStore\Shared\bin\Debug\net5.0\ref\EStore.Shared.dll
+D:\C# Practice\EStore\EStore\Shared\bin\Debug\net5.0\EStore.Shared.pdb
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.csproj.AssemblyReference.cache
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.AssemblyInfoInputs.cache
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.AssemblyInfo.cs
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.csproj.CoreCompileInputs.cache
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.dll
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\ref\EStore.Shared.dll
+D:\C# Practice\EStore\EStore\Shared\obj\Debug\net5.0\EStore.Shared.pdb

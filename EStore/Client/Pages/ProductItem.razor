@@ -1,0 +1,19 @@
+﻿
+<div class="row">
+    <div class="col">
+        @product.Name
+    </div>
+    <div class="col">
+        @product.Id
+    </div>
+    <div class="col">
+        @product.Price
+    </div>
+
+</div>
+
+
+@code {
+    [Parameter]
+    public Product product { get; set; }
+}
