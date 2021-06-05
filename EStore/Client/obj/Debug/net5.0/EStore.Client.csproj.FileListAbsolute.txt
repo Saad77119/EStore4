@@ -654,3 +654,5 @@ D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\ref\EStore.Client.dll
 D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\EStore.Client.pdb
 D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ProductItem.razor.g.cs
 D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\Razor\Pages\ProductItem.razor.g.cs
+D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Footer.razor.g.cs
+D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\Razor\Shared\Footer.razor.g.cs

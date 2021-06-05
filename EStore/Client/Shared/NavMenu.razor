@@ -1,27 +1,75 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">EStore</a>
-    <button class="navbar-toggler" @onclick="ToggleNavMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+﻿<div class="container">
+    <!-- navbar code starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+        <a href="index.html" class="navbar-brand text-center d-lg-none text-danger text-uppercase">eStore</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Male</a>
+                        <a class="dropdown-item" href="#">Female</a>
+                        <a class="dropdown-item" href="#">Childs</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact US</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="SignUp.html">SignUp</a>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+            <!-- <button type="button" id="nav_login_btn" class="btn btn-primary d-none d-md-block "><a
+                href="login.html">Login</a></button>
+            <button type="button" id="nav_signUp-btn" class="btn btn-success ml-3 mr-2 d-none d-md-block"><a
+                    href="#">SignUp</a></button> -->
+        </div>
+
+    </nav>
+
+    <div class="container mt-3 bg-gradient-secondary d-none d-lg-block">
+        <div class="row bg-light py-1">
+            <div class="col-2">
+                <h1><a class="brand_name" href="index.html">eStore</a></h1>
+            </div>
+            <div class="col-7 offset-lg-1 py-1">
+                <form action="#">
+                    <div class="form-row">
+                        <div class="col-10">
+                            <input type="search" class="form-control" placeholder="Search your favourate item here">
+                        </div>
+                        <div class="col-1">
+                            <button class="btn btn-warning" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-2">
+                <a class="btn text-black text-decoration-none fw-bolder d-block" href="contact.html">
+                    <i class="fas fa-cart-plus  trolly h1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
-
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <ul class="nav flex-column">
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </li>
-    </ul>
-</div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
