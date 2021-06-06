@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using Microsoft.AspNetCore.Session;
 
 namespace EStore.Server
 {
@@ -23,6 +24,8 @@ namespace EStore.Server
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddDistributedMemoryCache();
+            services.AddSession();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -47,7 +50,7 @@ namespace EStore.Server
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

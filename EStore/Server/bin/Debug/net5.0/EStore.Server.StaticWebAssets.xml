@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\C# Practice\EStore\EStore\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="D:\C# Practice\EStore\EStore\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/" Path="D:\C# Practice\EStore\EStore\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Client\wwwroot\" />
 </StaticWebAssets>
