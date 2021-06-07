@@ -2,9 +2,9 @@
 using System.Collections.Generic;  
 using System.ComponentModel.DataAnnotations;  
 using System.Linq;  
-using System.Web;  
-  
-namespace EStore.Server.Models
+using System.Web;
+
+namespace EStore.Shared.Models
 {
     public class UserLogin
     {

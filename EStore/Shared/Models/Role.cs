@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace EStore.Server.Models
+namespace EStore.Shared.Models
 {
     public partial class Role
     {

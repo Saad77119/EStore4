@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EStore.Server.Models;
+using EStore.Shared.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Net;
 using System.Net.Mail;

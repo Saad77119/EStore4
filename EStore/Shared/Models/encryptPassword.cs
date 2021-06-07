@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EStore.Server.Models
+namespace EStore.Shared.Models
 {
     public class encryptPassword
     {

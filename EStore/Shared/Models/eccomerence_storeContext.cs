@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace EStore.Server.Models
+namespace EStore.Shared.Models
 {
     using System;
     using System.Data.Entity;

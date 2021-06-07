@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 
-namespace EStore.Server.Models
+namespace EStore.Shared.Models
 {
     public partial class User
     {
