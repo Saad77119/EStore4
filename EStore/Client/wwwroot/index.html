@@ -4,22 +4,220 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>EStore</title>
+    <title>Estore</title>
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/app.css" rel="stylesheet" />
     <link href="EStore.Client.styles.css" rel="stylesheet" />
+
+
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/app.css" rel="stylesheet" />
+
+
 </head>
 
 <body>
     <div id="app">Loading...</div>
 
-    <!--<div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>-->
+    <!--
+    <div id="blazor-error-ui">
+            An unhandled error has occurred.
+            <a href="" class="reload">Reload</a>
+            <a class="dismiss">🗙</a>
+        </div>-->
     <script src="_framework/blazor.webassembly.js"></script>
+    <!--<script>
+        window.initializeCarousel = () => {
+            $('#carousel_Indicators').carousel({ interval: 2000 })
+            $('#carousel_Indicators-prev').click(
+                () => $('#carousel_Indicators').carousel('prev'));
+            $('#carousel_Indicators-next').click(
+                () => $('#carousel_Indicators').carousel('next'));
+        }
+    </script>
+    -->
+    <!-- all script files are added here -->
+    <!--<script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>-->
+    <!-- Essential javascripts for application to work-->
+    <!--<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>-->
+    <!-- The javascript plugin to display page loading on top-->
+    <!--<script src="js/plugins/pace.min.js"></script>-->
+    <!-- Page specific javascripts-->
+    <!--<script type="text/javascript" src="js/plugins/chart.js"></script>
+    <script type="text/javascript">
+        var data = {
+            labels: ["January", "February", "March", "April", "May"],
+            datasets: [
+                {
+                    label: "My First dataset",
+                    fillColor: "rgba(220,220,220,0.2)",
+                    strokeColor: "rgba(220,220,220,1)",
+                    pointColor: "rgba(220,220,220,1)",
+                    pointStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "rgba(220,220,220,1)",
+                    data: [65, 59, 80, 81, 56]
+                },
+                {
+                    label: "My Second dataset",
+                    fillColor: "rgba(151,187,205,0.2)",
+                    strokeColor: "rgba(151,187,205,1)",
+                    pointColor: "rgba(151,187,205,1)",
+                    pointStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "rgba(151,187,205,1)",
+                    data: [28, 48, 40, 19, 86]
+                }
+            ]
+        };
+        var pdata = [
+            {
+                value: 300,
+                color: "#46BFBD",
+                highlight: "#5AD3D1",
+                label: "Complete"
+            },
+            {
+                value: 50,
+                color: "#F7464A",
+                highlight: "#FF5A5E",
+                label: "In-Progress"
+            }
+        ]
+
+        var ctxl = $("#lineChartDemo").get(0).getContext("2d");
+        var lineChart = new Chart(ctxl).Line(data);
+
+        var ctxp = $("#pieChartDemo").get(0).getContext("2d");
+        var pieChart = new Chart(ctxp).Pie(pdata);
+    </script>-->
+    <!-- Google analytics script-->
+    <!--<script type="text/javascript">
+        if (document.location.hostname == 'pratikborsadiya.in') {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-72504830-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>-->
+    <!-- Essential javascripts for application to work-->
+    <!--<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>-->
+    <!-- The javascript plugin to display page loading on top-->
+    <!--<script src="js/plugins/pace.min.js"></script>-->
+    <!-- Page specific javascripts-->
+    <!-- Google analytics script-->
+    <!--<script type="text/javascript">
+        if (document.location.hostname == 'pratikborsadiya.in') {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-72504830-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>-->
+    <!-- Essential javascripts for application to work-->
+    <!--<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>-->
+    <!-- The javascript plugin to display page loading on top-->
+    <!--<script src="js/plugins/pace.min.js"></script>
+    <script type="text/javascript">
+        // Login Page Flipbox control
+        $('.login-content [data-toggle="flip"]').click(function () {
+            $('.login-box').toggleClass('flipped');
+            return false;
+        });
+    </script>-->
+    <!-- Essential javascripts for application to work-->
+    <!--<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>-->
+    <!-- The javascript plugin to display page loading on top-->
+    <!--<script src="js/plugins/pace.min.js"></script>-->
+    <!-- Page specific javascripts-->
+    <!-- Google analytics script-->
+    <!--<script type="text/javascript">
+        if (document.location.hostname == 'pratikborsadiya.in') {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-72504830-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>-->
+    <!-- Essential javascripts for application to work-->
+    <!--<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>-->
+    <!-- The javascript plugin to display page loading on top-->
+    <!--<script src="js/plugins/pace.min.js"></script>-->
+    <!-- Page specific javascripts-->
+    <!-- Google analytics script-->
+    <!--<script type="text/javascript">
+        if (document.location.hostname == 'pratikborsadiya.in') {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-72504830-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

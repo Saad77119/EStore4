@@ -1,0 +1,145 @@
+﻿@page "/Formsamples"
+
+
+<div class="app sidebar-mini rtl">
+    <!-- Navbar-->
+    <header class="app-header">
+        <a class="app-header__logo" href="Index2">Estore</a>
+        <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+<ul class="app-nav">
+        <!-- User Menu-->
+        <li class="dropdown">
+            <a class="app-nav__item" href="LoginDashboard" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+            <ul class="dropdown-menu settings-menu dropdown-menu-right">
+
+                <li><a class="dropdown-item" href="LoginDashboard"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+            </ul>
+        </li>
+</ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+
+        <div>
+            <p class="app-sidebar__user-name"> Estore</p>
+            <p class="app-sidebar__user-designation">Admin </p>
+        </div>
+
+        <ul class="app-menu">
+            <li><a class="app-menu__item active" href="Index2"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+
+
+
+            <li><a class="app-menu__item" href="Formsamples" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label"> Product</span></a></li>
+
+
+            <li>  <a class="app-menu__item" href="Tablebasic" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Data</span></a></li>
+            <li> <a class="app-menu__item" href="Pageinvoice" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label"> Invoice</span></a></li>
+            <li> <a class="app-menu__item" href="Pagemailbox" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label"> Mailbox</span></a></li>
+        </ul>
+    </aside>
+    <main class="app-content">
+        <div class="app-title">
+            <div>
+                <h1><i class="fa fa-edit"></i>  Product</h1>
+
+            </div>
+            <ul class="app-breadcrumb breadcrumb">
+                <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+                <li class="breadcrumb-item">Items</li>
+                <li class="breadcrumb-item"><a href="#"> HOME</a></li>
+            </ul>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Delete Product</th>
+                        <th>Update Product</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ic2</td>
+                        <td>1700</td>
+                        <th>
+                            <button type="submit" class="success">
+                                Delete
+                            </button>
+                        </th>
+                        <th>
+                            <button type="submit" class="success">
+                                Update
+                            </button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ic3</td>
+                        <td>2500</td>
+                        <th>
+                            <button type="submit" class="success">
+                                Delete
+                            </button>
+
+                        </th>
+                        <th>
+                            <button type="submit" class="success">
+                                Update
+                            </button>
+                        </th>
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ic4</td>
+                        <td>1500</td>
+                        <th>
+                            <button type="submit" class="success">
+                                Delete
+                            </button>
+
+                        </th>
+                        <th>
+                            <button type="submit" class="success">
+                                Update
+                            </button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>ic5</td>
+                        <td>1700</td>
+                        <th>
+                            <button type="submit" class="success">
+                                Delete
+                            </button>
+                        </th>
+                        <th>
+                            <button type="submit" class="success">
+                                Update
+                            </button>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        
+</main>
+
+</div>
+
+
+
+
+@code {
+
+}

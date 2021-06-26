@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EStore.Shared
+namespace EStore.Shared.Models
 {
     public enum MainCategory
     {

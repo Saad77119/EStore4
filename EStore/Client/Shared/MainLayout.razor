@@ -1,12 +1,16 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="main">
-        <NavMenu></NavMenu>
-        <div class="content px-4">
+<div class="page" style="background-color:lightblue;">
 
-            @Body
-        </div>
-        <Footer></Footer>
+
+    <div class="main">
+
+        <div class="content px-4">
+            <NavigationLinks>
+            </NavigationLinks>
+
+            <Header></Header>
+    @Body
+</div>
     </div>
 </div>

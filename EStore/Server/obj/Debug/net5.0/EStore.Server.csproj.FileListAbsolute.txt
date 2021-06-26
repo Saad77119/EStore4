@@ -186,3 +186,13 @@ C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\De
 C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\RestSharp.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\Forloop.HtmlHelpers.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\Mvc.Bootstrap.Core.dll
+C:\Users\saadr\OneDrive\Desktop\EAD Semes\eStore-EADProject\EStore\Server\bin\Debug\net5.0\Rhythm.Html.dll

@@ -1,0 +1,44 @@
+﻿@using EStore.Shared.Models;
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@page "/LoginDashboard"
+
+
+<div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <EditForm Model="UserLogin" OnSubmit="@Login">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <label for="email">Email :</label>
+            <InputText id="email" @bind-Value="@UserLogin.email"></InputText>
+            <label for="password">Email</label>
+            <InputText id="password" @bind-Value="@UserLogin.password"></InputText>
+            <input type="submit" class="btn btn-default" />
+
+
+        </EditForm>
+        
+        
+        
+      
+        <div>
+
+        </div>
+    </div>
+</div>
+
+@code {
+    public UserLogin UserLogin { get; set; }
+
+    private async Task InsertForecast()
+    {
+        await Http.PostAsJsonAsync<UserLogin>("/api/Login", UserLogin);
+        Navigation.NavigateTo("/fetchdata");
+    }
+
+
+
+
+}
+

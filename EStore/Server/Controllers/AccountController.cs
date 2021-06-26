@@ -132,10 +132,11 @@ namespace EStore.Server.Controllers
         [Route("Login")]
         [ValidateAntiForgeryToken]
        
-        public ActionResult Login(UserLogin LgnUsr)
+        public async Task<UserLogin> Login(UserLogin LgnUsr)
         // public ActionResult Login(UserLogin LgnUsr)
         {
-            var _passWord = encryptPassword.textToEncrypt(LgnUsr.password);
+            return LgnUsr;
+           /* var _passWord = encryptPassword.textToEncrypt(LgnUsr.password);
             bool Isvalid = dbCon.Users.Any(x => x.Email == LgnUsr.email && x.Is_verified == true &&
             x.Password == _passWord);
             if (Isvalid)
@@ -184,6 +185,7 @@ namespace EStore.Server.Controllers
 
             return RedirectToAction("Login");
             //Console.WriteLine("Data is nt valid");
+           */
         }
 
         [HttpGet]

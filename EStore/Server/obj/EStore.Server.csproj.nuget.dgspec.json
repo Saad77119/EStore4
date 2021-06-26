@@ -48,14 +48,26 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Forloop.HtmlHelpers": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "HelperMethods.HTMLHelper": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Html.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
               "target": "Package",
@@ -67,17 +79,25 @@
             },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
+            },
+            "Mvc.Bootstrap.Core": {
+              "target": "Package",
+              "version": "[3.0.8.12882, )"
+            },
+            "Rhythm.Html": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",
@@ -175,13 +195,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "RestSharp": {
               "target": "Package",
@@ -254,6 +274,10 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "HelperMethods.HTMLHelper": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -264,13 +288,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
+            },
+            "Mvc.Bootstrap.Core": {
+              "target": "Package",
+              "version": "[3.0.8.12882, )"
             }
           },
           "imports": [

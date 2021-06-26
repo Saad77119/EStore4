@@ -1,0 +1,67 @@
+﻿@page "/AddProduct"
+@using EStore.Shared.Models;
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 mx-auto my-3 bg-white p-3">
+            <h1 class="text-center text-dark text-uppercase">Add Product</h1>
+            <div class="row my-3 ml-2">
+                <div class="col-12">
+                    <EditForm Model="@product" OnValidSubmit="@HandleValidSubmit">
+                        <div class="row">
+                            <div class="col-6">
+                                <label>
+                                    Name:
+                                    <InputText @bind-Value="product.Name" />
+                                </label>
+                            </div>
+                            <div class="col-6">
+                                <label>
+                                    Description :
+                                    <InputTextArea @bind-Value="product.Description" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <label>
+                                    Price :
+                                    <InputNumber @bind-Value="product.Price" />
+                                </label>
+                            </div>
+                            <div class="col-6">
+                                <label>
+                                    Image :
+                                    <InputFile @bind-Value="product.Price" />
+                                </label>
+                            </div>
+                        </div>
+                       
+                        <div class="row">
+                            <div class="col">
+                                <label>
+                                    Engineering Approval:
+                                    <InputCheckbox @bind-Value="product.IsActive" />
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn col-6 bg-success m-auto text-white d-block">
+                            Add Product
+                        </button>
+                    </EditForm>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<FooterComponent />
+@code {
+    AccessProduct product = new AccessProduct();
+
+    private void HandleValidSubmit()
+    {
+        // Process the valid form
+    }
+}

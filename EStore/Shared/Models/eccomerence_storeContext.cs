@@ -32,6 +32,7 @@ namespace EStore.Shared.Models
 
         public virtual DbSet<User> Users{ get ; set; }
         public virtual DbSet<Role> Roles{ get; set; }
+        public virtual DbSet<Product> Product { get; set; }
 
 
 
